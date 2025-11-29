@@ -2,7 +2,7 @@ import uuid
 from django.db import models
 from django.conf import settings
 from django.contrib.auth.models import User
-
+#this change
 # Create your models here.
 
 class Country(models.Model):
