@@ -1,13 +1,8 @@
 import uuid
 from django.db import models
 from django.conf import settings
-from django.contrib.auth.models import User
-<<<<<<< HEAD
-#this change
-=======
 
->>>>>>> 4a89704 (initatl commit)
-# Create your models here.
+from django.contrib.auth.models import User
 
 class Country(models.Model):
     name = models.CharField(max_length=100)
@@ -67,9 +62,3 @@ class Device(models.Model):
     def __str__(self):
         return f"{self.user.username} - {self.device_uuid}"
     
-
-<<<<<<< HEAD
-    
-=======
-    
->>>>>>> 4a89704 (initatl commit)
